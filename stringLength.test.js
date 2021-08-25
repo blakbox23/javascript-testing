@@ -1,0 +1,2 @@
+const { stringLength } = require('./main');
+
