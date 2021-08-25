@@ -52,11 +52,13 @@ class Calculator {
    return this.a / this.b
   }
 
-
 }
+
+const capitalize = string => string.charAt(0).toUpperCase()+string.slice(1)
 
 
 
 exports.stringLength = stringLength;
 exports.reverseString = reverseString;
 exports.Calculator = Calculator;
+exports.capitalize = capitalize;
